@@ -13,29 +13,17 @@ function EditContact() {
     const dispatch = useDispatch()
 
     const AllContact = useSelector((store) => store.contacts)
-
-
-
     const [form, setForm] = useState({})
 
     const handleChange = (e) => {
-     
-        setForm({
+     setForm({
             ...form,
             [e.target.name]: e.target.value
         })
-
-
     }
 
-
-
-
     function handleSave() {
-
-
-
-        dispatch(editContact({ id, ...form }))
+    dispatch(editContact({ id, ...form }))
 
     }
 

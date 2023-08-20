@@ -3,8 +3,7 @@ import { useDispatch } from "react-redux";
 import { addContact } from '../Redux/action';
 function ContactForm() {
 
-
-    const dispatch = useDispatch()
+ const dispatch = useDispatch()
 
     const [form, setForm] = useState({
         first_name: "",
@@ -15,23 +14,15 @@ function ContactForm() {
 
     const handleChange = (e) => {
 
-
         setForm({
             ...form,
             [e.target.name]: e.target.value
         })
-
-
     }
 
 
-
-
     function handleSave() {
-
-
-
-        dispatch(addContact(form))
+     dispatch(addContact(form))
 
     }
 
