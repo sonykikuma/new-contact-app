@@ -23,6 +23,7 @@ The app uses the following APIs to fetch data:
 World wide data of cases: https://disease.sh/v3/covid-19/all
 Country Specific data of cases: https://disease.sh/v3/covid-19/countries
 Graph data for cases with date: https://disease.sh/v3/covid-19/historical/all?lastdays=all
+
 #Technologies Used The following technologies are used to build the app:
 
 ReactJS
@@ -31,5 +32,6 @@ TailwindCSS
 React Router v6
 React Query
 Redux
+
 Deployed Link : -
 https://new-contact-app.netlify.app
